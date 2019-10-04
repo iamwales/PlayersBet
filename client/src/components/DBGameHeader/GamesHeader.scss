@@ -1,0 +1,36 @@
+.gamesheader {
+  background-image: url(../../images/Gamembg.png);
+  padding: 120px;
+  color: #fff;
+
+  .game-name {
+    padding-top: 40px;
+  }
+
+  .game {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .btn {
+    background-color: #30005d;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+  }
+
+  .recent-matches {
+    text-align: center;
+
+    .player {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .player1 {
+        margin: 10px;
+        padding: 0px 20px;
+      }
+    }
+  }
+}

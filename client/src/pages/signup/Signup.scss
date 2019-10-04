@@ -1,0 +1,127 @@
+.login {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  .left-design {
+    padding: 70px 150px;
+    color: #434343;
+
+    .mobile {
+      display: none;
+    }
+
+    .title {
+      font-size: 50px;
+      font-weight: 500;
+    }
+
+    .link-url {
+      color: #5a02ad;
+      text-decoration: none;
+    }
+
+    .input {
+      width: 100%;
+      border: 2px solid #434343;
+      border-radius: 30px;
+      padding: 15px 30px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #5a02ad;
+      padding: 10px 30px;
+      border-radius: 30px;
+      color: #fff;
+
+      .icon {
+        padding: 2px 20px;
+        width: 58px;
+      }
+
+      .icon2 {
+        padding: 2px 20px;
+        width: 70px;
+      }
+    }
+  }
+
+  .side-design {
+    color: #fff;
+    text-align: end;
+
+    .side-content {
+      padding: 70px 100px;
+
+      .su-logo {
+        font-size: 34px;
+        font-weight: 600;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .welcome {
+        font-size: 70px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .side-bg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-image: url(../../images/login-bg.png);
+    height: 100vh;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .login {
+    .left-design {
+      padding: 50px 100px;
+    }
+
+    .side-design {
+      .side-content {
+        padding: 50px 80px;
+
+        .main {
+          width: 100%;
+          text-align: right;
+          margin: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .login {
+    .left-design {
+      padding: 100px;
+
+      .mobile {
+        display: inline;
+        .logo {
+          font-size: 20px;
+          font-weight: 500;
+          color: #5a02ad;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .login {
+    .left-design {
+      padding: 50px;
+    }
+  }
+}

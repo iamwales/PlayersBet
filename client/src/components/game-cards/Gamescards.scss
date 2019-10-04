@@ -1,0 +1,21 @@
+.head {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.matc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.side-view {
+  .btn {
+    padding: 10px 30px;
+    background-color: #30005d;
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+  }
+}

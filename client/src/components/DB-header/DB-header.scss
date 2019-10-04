@@ -1,0 +1,47 @@
+.dbheader {
+  background-image: linear-gradient(to right, #5a02ad, #4d72e8);
+  color: #fff;
+  padding: 10px;
+
+  .logo {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+
+  .link {
+    padding-top: 30px;
+
+    .link-a {
+      padding: 20px;
+      padding-top: 18px;
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+
+  .H-side {
+    display: flex;
+    padding-top: 30px;
+
+    .username {
+      padding: 0px 10px;
+    }
+
+    .notif {
+      padding: 0px 10px;
+    }
+
+    .account {
+      display: flex;
+      flex-direction: row;
+
+      .addfund {
+        height: 30px;
+      }
+
+      .norm {
+        font-size: 24px;
+      }
+    }
+  }
+}

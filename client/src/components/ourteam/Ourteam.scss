@@ -1,0 +1,24 @@
+.ourteams {
+  background-image: linear-gradient(to right, #5a02ad, #4d72e8);
+  padding: 50px;
+  color: #fff;
+  text-align: center;
+
+  .ourteam-title {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .execu {
+    width: 150px;
+    margin: 20px 0px;
+  }
+
+  .name {
+    font-size: 20px;
+
+    span {
+      font-size: 16px;
+    }
+  }
+}

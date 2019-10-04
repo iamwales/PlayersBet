@@ -1,0 +1,22 @@
+.selectgame {
+  background-color: #30005d;
+  color: #fff;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tb {
+  margin-left: 140px;
+}
+
+.norms {
+  cursor: pointer;
+}
+
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  -webkit-appearance: none;
+}

@@ -1,0 +1,156 @@
+.container {
+  align-content: center;
+  // overflow: hidden;
+
+  .games-heading {
+    text-align: center;
+  }
+
+  .game-body {
+    position: relative;
+    overflow: visible;
+
+    .game-detils {
+      position: absolute;
+      top: -5px;
+      right: 300px;
+      background-image: linear-gradient(to right, #5a02ad, #4d72e8);
+      border-radius: 30px;
+      padding: 26px;
+      color: #fff;
+
+      .game-nam {
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      .game-played {
+        font-size: 20px;
+        font-weight: 500;
+
+        span {
+          font-size: 16px;
+          font-weight: 300;
+        }
+
+        &::after {
+          contain: "";
+          position: absolute;
+          width: 8px;
+          height: 2px;
+          background-color: #fff;
+        }
+      }
+
+      .game-join {
+        padding: 10px 20px;
+        background-color: #78f9ff;
+        border: none;
+        box-align: none;
+        border-radius: 40px;
+        color: #5a02ad;
+        font-size: 20px;
+        font-weight: 400;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .game-desc {
+      text-align: end;
+    }
+  }
+
+  .ww {
+    margin-left: 80%;
+  }
+
+  .left {
+    background-color: #4d72e8;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+
+  .right {
+    background-color: #4d72e8;
+    padding: 10px;
+    border-radius: 6px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1020px) {
+  .container {
+    .game-body {
+      .game-detils {
+        right: 150px;
+        padding: 20px;
+
+        .game-nam {
+          font-size: 16px;
+        }
+
+        .game-played {
+          font-size: 16px;
+
+          span {
+            width: 60%;
+            font-size: 16px;
+          }
+        }
+
+        .game-join {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .ww {
+      margin-left: 70%;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    .ww {
+      margin-left: 60%;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    .game-body {
+      .game-detils {
+        right: 100px;
+        padding: 20px;
+
+        .game-nam {
+          font-size: 12px;
+        }
+
+        .game-played {
+          font-size: 12px;
+
+          span {
+            width: 60%;
+            font-size: 12px;
+          }
+        }
+
+        .game-join {
+          font-size: 12px;
+        }
+      }
+    }
+    .ww {
+      margin-left: 40%;
+    }
+  }
+}

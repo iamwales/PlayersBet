@@ -1,0 +1,45 @@
+.profileHead {
+  background-color: #30005d;
+  color: #fff;
+  position: relative;
+
+  .user-img {
+    width: 80px;
+    position: absolute;
+    top: 20px;
+    left: 210px;
+
+    .user {
+      width: 160px;
+    }
+  }
+
+  .user-info {
+    margin-left: 220px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+    .name {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 8px 0px 10px 0px;
+    }
+
+    .user-details {
+      display: flex;
+      flex-direction: row;
+
+      .dek {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0px 40px 0px 0px;
+        margin-bottom: 0px;
+
+        span {
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}

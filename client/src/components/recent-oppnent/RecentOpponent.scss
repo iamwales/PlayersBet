@@ -1,0 +1,23 @@
+.recentopp-head {
+  text-align: center;
+
+  .norm {
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 70px;
+      right: 2px;
+      height: 1px;
+      width: 100%;
+      background-color: #ccc;
+    }
+  }
+
+  .recentopp-empty {
+    text-align: center;
+  }
+}
